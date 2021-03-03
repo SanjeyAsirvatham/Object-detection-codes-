@@ -15,6 +15,8 @@ Algorithm3.py is basically an application to evaluate the hsv values for the for
 
 Algorithm4.py is the functionally active code with utilises the coco.names and the frozen inference_graph.pb  and the ssd_mobilenet_v3_large to evaluate multiple objects. The code also tries to evaluate the distance of an object from the camera being used by using linear regression. However this is not the accurate approach to evaluate the distance of an object. Stereo vision would be the next best alternative is computer vision was the route to evaluate the distance. 
 
+Object_detector_module.py this code describes the calling of algorithm4.py.
+
 
 **Conclusion:**
 Further improvements should be made to this code to cater the purpose. 
